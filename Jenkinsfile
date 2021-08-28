@@ -19,7 +19,7 @@ pipeline {
     }
     stage('Push') {
       steps {
-        sh './jenkins/push.sh'
+        sh 'docker push ashishut/appdep/'
       }
     }
   }
