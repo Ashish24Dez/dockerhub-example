@@ -19,7 +19,7 @@ pipeline {
     }
     stage('Push') {
       steps {
-        sh 'docker push ashishut/appdep/'
+        sh 'docker push ashishut/appdep/dp-alpine:V12'
       }
     }
   }
