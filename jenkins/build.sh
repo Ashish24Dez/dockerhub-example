@@ -1,2 +1,2 @@
 #!/bin/bash
-docker build -t dp-alpine:V11 .
+docker build -t dp-alpine:V10 .
