@@ -1,3 +1,3 @@
 #!/bin/bash
-docker build -t dp-alpine .
-docker tag dp-alpine ashishut/appdep:dp-alpine
+docker build -t dp-alpine:latest .
+docker tag dp-alpine:latest ashishut/appdep/imagenm:V1.4
