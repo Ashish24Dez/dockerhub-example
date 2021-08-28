@@ -19,7 +19,7 @@ pipeline {
     }
     stage('Push') {
       steps {
-        sh 'docker push ashishut/appdep:dp-alpine'
+        sh 'docker push ashishut/appdep/imagenm:V1.4'
       }
     }
   }
